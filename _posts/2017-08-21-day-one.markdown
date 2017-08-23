@@ -4,7 +4,7 @@ title:  "The Beginning"
 date:   2017-08-21 22:26:06 -0400
 categories: jekyll update
 ---
-Today is my first day as a resident apprentice at [8th Light][8th-light], and the first time I've ever blogged! Bear with me as I deal with the growing pains that come with trying new things. I'll be dumping my brain into these posts, and things might get a bit weird, but hopefully both you (the reader) and I will learn something along the way!
+Today is my first day as a resident apprentice at [8th Light](https://8thlight.com/), and the first time I've ever blogged! Bear with me as I deal with the growing pains that come with trying new things. I'll be dumping my brain into these posts, and things might get a bit weird, but hopefully both you (the reader) and I will learn something along the way!
 
 My mentor and I both decided that it would be best for me to start learning a second programming language ASAP, and settled on Python as the most promising option. I'm currently working through the 'Python Koans' as a way to quickly learn by doing.
 
@@ -16,4 +16,4 @@ before rage quitting my terminal.
 Vim requires an entire blog post on its own (which will come shortly).
 
 GOOD NIGHT!
-[8th-light]: https://8thlight.com/
+
