@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Today was rough"
-date: 2017-08-23 21:39:06 -0400
+date: 2017-08-23 
 categories: jekyll update
 ---
 Today was a very humbling day for me. Vim is proving to be more of a challenge than I thought.
