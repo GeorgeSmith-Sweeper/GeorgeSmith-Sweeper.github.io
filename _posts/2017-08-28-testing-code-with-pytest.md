@@ -29,5 +29,9 @@ def add_one(x):
 
 class MyTest(unitest.TestCase):
 	def test(self):
-		self.assertEqual(func(3), 4)
+		self.assertEqual(add_one(3), 4)
 ```
+
+After looking at the two examples, pytest clearly requires less code to get up and running, and is more declaritive. Declaritive code often leaves fewer places for bugs to hide, and makes an makes a developers life easier.
+
+
