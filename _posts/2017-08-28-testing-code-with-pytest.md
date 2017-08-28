@@ -16,7 +16,7 @@ def add_one(x):
 	return x + 1
 
 def test_answer():
-	assert func(3) == 5
+	assert func(3) == 4
 ```
 
 For comparison, here's how you would write the same test in Unittest:
@@ -32,6 +32,8 @@ class MyTest(unitest.TestCase):
 		self.assertEqual(add_one(3), 4)
 ```
 
-After looking at the two examples, pytest clearly requires less code to get up and running, and is more declaritive. Declaritive code often leaves fewer places for bugs to hide, and makes an makes a developers life easier.
+After looking at the two examples, pytest clearly requires less code to get up and running, and is more declaritive. Declaritive code often leaves fewer places for bugs to hide, and makes a developers life easier.
 
+In the event that you need to have tests automatically run everytime you make a change to your code (always) you can install `pip install pytest-watch`, and then run `ptw` in your project directory.
 
+Pytest 
