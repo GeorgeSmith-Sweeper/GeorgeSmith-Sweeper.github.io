@@ -5,7 +5,7 @@ data: 2017-08-28
 categories: jekyll update
 ---
 
-There are many different suites for working setting up tests for python, but none seem quite as simple to setup, get testing, and move write better code.
+There are many different testing suites for python, but none seem quite as simple to setup, interact with with, and start writing better code.
 
 The beauty of `pytest` comes from the simplicity of it's test structure. If you want to write a test in pytest, this is what it would look like:
 
@@ -19,7 +19,7 @@ def test_answer():
 	assert func(3) == 4
 ```
 
-For comparison, here's how you would write the same test in Unittest:
+Here's how you would write the same test in Unittest:
 
 ```python
 import unitest
@@ -34,6 +34,9 @@ class MyTest(unitest.TestCase):
 
 After looking at the two examples, pytest clearly requires less code to get up and running, and is more declaritive. Declaritive code often leaves fewer places for bugs to hide, and makes a developers life easier.
 
-In the event that you need to have tests automatically run everytime you make a change to your code (always) you can install `pip install pytest-watch`, and then run `ptw` in your project directory.
+In the event that you need to have tests automatically run everytime you make a change to your code, you can run `pip install pytest-watch`, and then type `ptw` in your project directory.
 
-Pytest 
+As I continue to use Pytest and unlock it's power, I'll update this post to keep everyone abreast of my discoveries! Happy testing! 
+
+[Pytest DOCS](https://docs.pytest.org/en/latest/index.html)
+[Pytest-watch](https://pypi.python.org/pypi/pytest-watch)
