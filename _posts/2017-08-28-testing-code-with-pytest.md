@@ -39,4 +39,5 @@ In the event that you need to have tests automatically run everytime you make a 
 As I continue to use Pytest and unlock it's power, I'll update this post to keep everyone abreast of my discoveries! Happy testing! 
 
 [Pytest DOCS](https://docs.pytest.org/en/latest/index.html)
+
 [Pytest-watch](https://pypi.python.org/pypi/pytest-watch)
