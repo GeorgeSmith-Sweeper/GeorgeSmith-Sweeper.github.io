@@ -1,6 +1,6 @@
 ---
 layout: post
-title: tmux bug hunting
+title: Tmux bug hunting
 date: 2017-08-29
 categories: jekyll update
 ---
