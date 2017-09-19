@@ -8,4 +8,4 @@ categories: jekyll update
 My previous post about SOLID covered the 'Single Responsibility' principle. This post will focus on the 'Open / Closed' principle. 
 
 ## Open / Closed
-
+>Code should be open to extension but closed to modification
