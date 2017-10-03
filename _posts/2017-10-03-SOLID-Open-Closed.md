@@ -9,7 +9,7 @@ This post is a continuation of my SOLID series, and will focus on defining, and 
 
 So why should we make sure that our code follows 'Open / Closed'? One compelling reason, is that it makes life easier for future developers who will inherit this project, and want to add functionality. Another reason is that 'Open / Closed' makes code more reusable and easier to reason about.
 
- Lets start with a quick definition of what Open / Closed is:
+Lets start with a quick definition of what Open / Closed is:
 
 >In object-oriented programming, the open/closed principle states "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"; that is, such an entity can allow its behavior to be extended without modifying its source code.
 
