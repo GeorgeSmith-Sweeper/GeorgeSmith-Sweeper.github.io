@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unit Testing Randomness"
-date:  2017-10-11
+date:  2017-10-12
 categories: jekyll update
 ---
 
