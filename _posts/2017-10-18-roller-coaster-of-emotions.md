@@ -7,9 +7,9 @@ categories: jekyll update
 
 ### The Good
 
-Today my mentors and I had our Bi-weekly retrospective, and went over what each of us thought of the previous two weeks of my apprenticeship work.
+Today my mentors and I had a Bi-weekly retrospective, and went over what we thought of my previous two weeks of my apprenticeship work.
 
-Although I hadn't been able to implement every requested feature in one of projects, the general vibe was positive and during the retro, and everyone (as far as I know) felt like I had made progress as a developer.
+Although I hadn't been able to implement every requested feature in one of projects, the general vibe was positive during the retro, and everyone (as far as I know) felt like I had made progress as a developer. I left the retro feeling better about my future, and with a solid road map.
 
 ### The Bad
 
@@ -21,7 +21,7 @@ My game board in BattleShip is a 2-d matrix of rows and columns.
 
 ![Board]({{ GeorgeSmith-Sweeper.github.io }}/assets/Battle-Ship-Board.png){:class="img-responsive"}
 
-I found a bug today that makes all the rows and columns switch, and makes it extremlly difficult to test the values of specific spots. The strangest part about this bug is this it's intermittant, and difficult to reproduce (the bug may be in my head).
+I found a bug today that makes all the rows and columns switch, and makes it extremely difficult to test the values of specific spots. The strangest part about this bug is this it's intermittent, and difficult to reproduce (the bug may be in my head).
 
 At this point in time I'm not sure what's causing this behavior, and all of my tests are green...
 
