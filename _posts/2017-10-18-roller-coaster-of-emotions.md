@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Roller Coaster of Emotions"
+comments: true
 date:  2017-10-17
 categories: jekyll update
 ---
