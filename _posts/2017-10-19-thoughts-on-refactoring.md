@@ -2,7 +2,6 @@
 layout: post
 title: "Thoughts on Refactoring"
 date:  2017-10-19
-comments: true
 categories: jekyll update
 ---
 
