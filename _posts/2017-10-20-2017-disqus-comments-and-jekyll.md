@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Disqus Comments and Jekyll"
-date:  2017-10-19
+date:  2017-10-20
 comments: true
 categories: jekyll update
 ---
@@ -10,7 +10,7 @@ categories: jekyll update
 
 Jekyll is a static (the key word being STATIC) site generator that allows anyone to quickly add content to a template, host that content, and display their thoughts to the world.
 
-Out of the box, Jekyll doesn't come with any type of comment intergation, which forces a developer to look for a third-party alternative.
+Out of the box, Jekyll doesn't come with any type of comment integration, which forces a developer to look for a third-party alternative.
 
 ### Disqus
 
@@ -20,7 +20,7 @@ Integrating the dynamic nature of comments into a static site generator like Jek
 
 ### Trouble
 
-If you've been reading this blog for a while now, you know that it's been a very one sided conversation. I appologize for that, and I've been doing everything I can to get comments enabled on the site (it's just not that easy).
+If you've been reading this blog for a while now, you know that it's been a very one sided conversation. I apologize for that, and I've been doing everything I can to get comments enabled on the site (it's just not that easy).
 
 Let's go on a short journey together, so that you can better understand what the hold up has been.
 
@@ -37,3 +37,8 @@ __Different Folder Structure__
 One thing that I've noticed about each of the comment write ups is that they all mention a _layouts folder which I don't have...
 
 ![Folder Structure]({{ GeorgeSmith-Sweeper.github.io }}/assets/Folder-Structure.png){:class="img-responsive"}
+
+
+### Summary
+
+I'm going to have the commments setup by Monday even if it kills me! I feel like I'm very close to solving this puzzle, and that the answer lies in my _layout! More reading will certainly be required, closly followed by trial and error.
