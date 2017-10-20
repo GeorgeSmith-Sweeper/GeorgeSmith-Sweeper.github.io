@@ -29,3 +29,11 @@ __Poor Writeups__
 I know very little about the inner workings of Jekyll or Disqus, so Googling ['adding comments to jekyll'](https://www.google.com/search?q=adding+comments+to+jekyll&oq=adding&aqs=chrome.4.69i57j69i60l3j69i59j69i65.2749j0j7&sourceid=chrome&ie=UTF-8) has been my go to resource.
 
 I've read the top three posts, and they've all presented different ways to accomplish the same thing!
+
+The most useful of the three has been [Keir Whitaker](https://keirwhitaker.com/blog/adding-comments-to-jekyll-blog/), but even with that, I haven't gotten them to work.
+
+__Different Folder Structure__
+
+One thing that I've noticed about each of the comment write ups is that they all mention a _layouts folder which I don't have...
+
+![Folder Structure]({{ GeorgeSmith-Sweeper.github.io }}/assets/Folder-Structure.png){:class="img-responsive"}
