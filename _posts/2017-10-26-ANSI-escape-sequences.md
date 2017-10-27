@@ -14,7 +14,7 @@ Once I overcame my initial thoughts about this being an impossible to achieve, I
 
 I found two packages that seemed promising ([Termcolor](https://pypi.python.org/pypi/termcolor), and [Colorama](https://pypi.python.org/pypi/colorama)) but they hid their internal workings from me, and forced me to rely on code that I didn't own. The second package ([Colorama](https://pypi.python.org/pypi/colorama)) mentioned something about 'ANSI escape character sequences', and displayed a strange looking code (`'\033[31m'`).
 
-I promptly googled 'ANSI escape character sequences' and found this excellent resource [ascii-table.com](http://ascii-table.com/ansi-escape-sequences.php). Using this as a guide, I was able to decipher the riddle of the terminal, and make some really cool outputs which you can check out [here](https://repl.it/NShK/1).
+I promptly googled 'ANSI escape character sequences' and found this excellent resource [ascii-table.com](http://ascii-table.com/ansi-escape-sequences.php). Using this as a guide, I was able to decipher the riddle of the terminal, and make some really cool outputs which you can check out [here](https://repl.it/NShK/2).
 
 The key to getting everything working was to change the values of the 'graphics mode'. The 'graphics mode' is in charge of how text is displayed on the screen.
 
