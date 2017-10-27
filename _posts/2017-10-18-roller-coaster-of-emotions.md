@@ -28,7 +28,4 @@ At this point in time I'm not sure what's causing this behavior, and all of my t
 
 I'm stepping away from the project for a couple of hours before I sink too much more time into bug hunting. Hopefully I'll have some bright ideas later on.
 
-
-
-
-
+{% include disqus.html %}

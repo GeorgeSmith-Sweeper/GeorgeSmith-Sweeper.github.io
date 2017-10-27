@@ -2,6 +2,7 @@
 layout: post
 title: "Python .copy"
 date:  2017-10-17
+comments: true
 categories: jekyll update
 ---
 
@@ -34,3 +35,5 @@ print(ints, ints_copy) # [1, 2, 3] [1, 2, 3]
 This works well enough, and saves on a tiny bit of typing, but requires me to remember how slice works (proper syntax, indexing), and hope that anyone looking at my code in the future also has a solid grasp of what I was originally trying to accomplish.
 
 Overall I prefer `copy` and have refactored many of my old slice calls to use it.
+
+{% include disqus.html %}

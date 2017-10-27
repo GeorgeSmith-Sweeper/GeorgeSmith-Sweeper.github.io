@@ -71,3 +71,5 @@ I still have a number of features that need to be implemented in my Battleship g
 'Refactoring - Ruby Edition' doesn't offer any silver bullets to fixing code, and I honestly haven't gotten far enough through the book to know if there were any. I plan on taking the rest of the day to refactor some of my Battleship game code, while keeping the book open next to me as a reference.
 
 I will update this post, and do a follow up once the solutions become more clear to me.
+
+{% include disqus.html %}

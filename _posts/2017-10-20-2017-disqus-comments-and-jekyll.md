@@ -42,3 +42,5 @@ One thing that I've noticed about each of the comment write ups is that they all
 ### Summary
 
 I'm going to have the commments setup by Monday even if it kills me! I feel like I'm very close to solving this puzzle, and that the answer lies in my _layout! More reading will certainly be required, closly followed by trial and error.
+
+{% include disqus.html %}
