@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Using 'git stash'"
+comments: true
 date: 2017-10-24
 categories: jekyll update
 ---
@@ -21,3 +22,5 @@ At this point, all the changes have been restored, and can be committed and push
 ### Summary
 
 It's easier (and smarter) to leave a branch unmodified, and make new branches off of it, than it is to use `git stash`. However if you've already gone too far for that to be an option, then `git stash` is a very handy tool to have.
+
+{% include disqus.html %}
