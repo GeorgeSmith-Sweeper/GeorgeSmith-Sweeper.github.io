@@ -10,7 +10,7 @@ categories: jekyll update
 
 What I was first asked this question, my mind immediately went to GUI's, various keyboard and mouse setups, and peripheral accessories. Unfortunately all of my assumptions were incorrect because Java thinks about interfaces in a very different way.
 
-In Java, an interface is a blueprint/contract for how a class will be built, and tells the class exactly what methods it must contain when it is created.
+In Java, an interface is a blueprint/contract for how a class will be built, and tells the class exactly what methods it must contain when it is created. Each implementation can be different which allows the interface to remain abstract, and each class that 'implements' it will be considered 'concrete'.
 
 Interfaces have this structure:
 
