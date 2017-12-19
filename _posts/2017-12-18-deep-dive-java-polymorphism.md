@@ -6,84 +6,80 @@ comments: true
 categories: jekyll update
 ---
 
-## Polymorphism
+# What is polymorphism?
 
 > The dictionary definition of polymorphism refers to a principle in biology in which an organism or species can have many different forms or stages. This principle can also be applied to object-oriented programming and languages like the Java language. Subclasses of a class can define their own unique behaviors and yet share some of the same functionality of the parent class.
 
+Polymorphism in Java is a massive topic, so it helps to put a bit of structure around the entire concept. In Java there are two different types of polymorphism Static, and Dynamic, and within those categories, there are different achieve it.
 
-Polymorphism can be acheived in Java in a number of ways. The main three are inheritance, interfaces, and abstract classes.
+# The two types of polymorphism
 
-* classes extending classes (inheritance)
+***
 
-Classes in Java inherit the traits of another class through extension. A class that extends another class is considered to be a Subclass.
+__STATIC__
+
+Static polymorphism is also known as compile time polymorphism, and is mostly achieved through a process called "method over-loading".
+
+Method overloading is demonstrated below:
+
+```java
+class GreetingMaker() {
+
+  public String sayHello(String greeting) {
+    return greeting;
+  }
+
+  public String sayHello(String greeting, String name) {
+    return greeting + name;
+  }
+}
+
+GreetingMaker greeter = new GreetingMaker();
+System.out.println(greeter.sayHello("Hello")); // prints Hello
+System.out.println(greeter.sayHello("Hello", "George")); // prints Hello George
+```
+
+When the compiler gets to our `GreetingMaker` class it sees that there are two methods with the same name (`sayHello`). The compiler then begins to look for what makes the two methods unique and sees that they are called with parameter lists. From this point on, the compiler will only call the first method if there is exactly one argument, and the second method if there are two arguments.
+
+All of this logic happens at compile time which is how this type of polymorphism gets its name.
+
+***
+
+__DYNAMIC__
+
+Dynamic polymorphism can be achieved in Java in a number of ways. Two of the most popular ways are inheritance (demonstrated below), and [interfaces](https://georgesmith-sweeper.github.io/jekyll/update/2017/12/14/interfaces-in-java.html).
+
+Classes in Java inherit the traits of another class through extension. A class that extends another class is considered to be a subclass.
 
 ```java
 class Animal() {
-  public void breath() {}
-  public void eat() {}
-  public String makeASound() {}
+  public String makeASound() {
+    return "Grrrrr"
+  }
 }
 
 class Donkey extends Animal {
-
-  // returns a specific sound for donkeys
   @Override
   public String makeASound() {
     return "Heee Hawww";
   }
 }
+
+Animal tiger = new Animal();
+System.out.println(tiger.makeASound()); // "Grrrrr"
+
+Donkey donkey = new Donkey();
+System.out.println(donkey.makeASound()); // "Heee Hawww"
+
 ```
 
-The Donkey class will now have access to the `breath`, `eat`, and `makeASound` methods that were created by the Animal Superclass. The Donkey class can also choose to create it's own implementation for an inherited method by adding an `@Override` anotation to the method when the return type, and method signature are the same.
+The Donkey subclass will now have access to the `makeASound` method that was created by the Animal Superclass. The Donkey subclass can also choose to create it's own implementation for an inherited method by adding an `@Override` annotation to the method when the return type, and method signature are the same.
 
-### Interfaces
-
-Interfaces in Java allows developers to create classes that follow a 'contract' provided by another class, but modify the implementation of those methods in anyway that they see fit. The custom implementations mean that the interface can remain abtract, and each class that 'implements' it will be considered 'concrete'.
-
-```java
-public interface Animal() {
-  void breath();
-  void eat();
-  String makeASound();
-}
-
-class Donkey implements Animal {
-
-  public void breath() {
-    // breaths in donkey style
-  }
-
-  public void eat() {
-    // eats in a unique way
-  }
-
-  public String makeASound() {
-    // returns a unique sound
-  }
-}
-```
+Java determines which version of the `makeASound` method to run based on the object that owns that method. Because Donkey is also an Animal, this is Polymorphic. The JVM is in charge of determining which methods are called after everything has been compiled which is why this type of polymorphism is called runtime.
 
 
-### Abstract Classes
+# Summary
 
-Abstract classes are very similar to interfaces except that an Abstract class can declare __AND__ implement methods when created.
-
-```java
-abstract class Animal() {
-
-  // Default behaviors
-  public void breath() {
-    // inhale
-    // exhale
-  };
-  public void eat() {
-    // chew food
-  };
-
-  // abtract method, implemented by its instances
-  abtract String makeASound();
-}
-```
-
+Polymorphism is what makes modern programming and application development possible. It gives developers the ability to create a single object that can behave differently in many unique situations. Without polymorphism developers would spend all day bogged down imagining new objects for every possible situation, and never create anything useful.
 
 {% include disqus.html %}
