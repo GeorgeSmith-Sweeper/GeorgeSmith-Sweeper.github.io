@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: "Static keyword in Java"
+date:  2017-12-29
+comments: true
+categories: jekyll update
+---
 
 # Cryptic key words
 
@@ -66,3 +72,4 @@ Car.startEngine();
 
 # Summary
 
+Using static is as close as you can get to having a global's in Java. You will never have to instantiate a class to use it's methods, and all static fields will be shared.
