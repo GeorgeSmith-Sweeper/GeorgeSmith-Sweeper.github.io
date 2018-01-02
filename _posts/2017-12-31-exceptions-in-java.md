@@ -41,3 +41,5 @@ The `finally` block will execute whether an exception was thrown or not, and mak
 # Summary
 
 When using "risky" code, always use a try/catch to protect yourself from unexpected behavior. Try/catch blocks aren't meant to protect you from logic errors in your code, but will shield you from many errors that are outside of your control.
+
+{% include disqus.html %}

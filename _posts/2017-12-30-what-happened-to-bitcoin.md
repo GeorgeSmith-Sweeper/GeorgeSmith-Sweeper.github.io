@@ -30,3 +30,5 @@ In order for bitcoin to return to it's former glory, and continue to grow it nee
 ## The Future
 
 2018 will be a wild ride for crypto in general, and will play a pivotal role in determining the fate of the worlds largest and oldest.
+
+{% include disqus.html %}
