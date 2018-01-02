@@ -38,21 +38,6 @@ The prints statement inside the __catch__ block will only run if the `getGas` me
 
 The `finally` block will execute whether an exception was thrown or not, and makes sure that the hose detaches from the car.
 
-# What does "throw" and exception mean?
-
-```java
-class Pump {
-
-  public void getGas() throws OutOfFuelException {
-    if (outOfFuel) {
-      throw OutOfFuelException;
-    } else {
-      // fill the tank
-    }
-  }
-}
-```
-
 # Summary
 
-When using "risky" code, always use a try/catch to protect yourself from unexpected behavior.
+When using "risky" code, always use a try/catch to protect yourself from unexpected behavior. Try/catch blocks aren't meant to protect you from logic errors in your code, but will shield you from many errors that are outside of your control.
