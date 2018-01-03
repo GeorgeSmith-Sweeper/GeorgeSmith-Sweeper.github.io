@@ -150,3 +150,5 @@ makes the fields 'read' only.
 
 Following best practices, and making use of encapsulation, constructors, and getter/setter methods,
 can prevent many unusual behaviors in creation and use of class instances.
+
+{% include disqus.html %}
