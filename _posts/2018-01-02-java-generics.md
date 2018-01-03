@@ -12,7 +12,7 @@ Generics in Java are bit of code that is placed in angle brakets (`< >`) during 
 Generics are mainly used to help developers create type-safe collections by allowing types to be parameters,
 when defining classes, interfaces, and methods. This allows a developer to reuse the same code with different inputs.
 
-### What does a genertic look like?
+### What does a generic look like?
 
 ```java
 Dog greatDane = new Dog();
@@ -40,10 +40,10 @@ aBunchOfNonsense.add(ten);
 aBunchOfNonsense.add(boolean);
 ```
 
-Everything in the example above is perfectly legal in Java, but you might run into some surprises if something unexpected gets added to the ArrayList.
+Everything in the example above is perfectly legal in Java, and there isn't a rule that says you must use genertics, but you might run into some surprises when something gets added to the ArrayList that you didn't expect.
 
-# Summary
+### Summary
 
-# To be Continued
+Generics provide compile time safety, by specifying the type of Object reference that should be expected with a parameter, class, or method. 
 
 {% include disqus.html %}
