@@ -48,3 +48,5 @@ The JVM is smart enough to understand how to read JAR's and will take care of th
 ## Summary
 
 __JAR__ files are one of Java's great tools to streamline the deployment process. Most local apps (non-web) are deployed as executable JAR's so that developers don't have to manually handoff every class required to run their app.
+
+{% include disqus.html %}
