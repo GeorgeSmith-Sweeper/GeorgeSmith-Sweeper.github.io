@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deep dive into Polymorphism"
+title: "A Look at Polymorphism"
 date:  2017-12-18
 comments: true
 categories: jekyll update
