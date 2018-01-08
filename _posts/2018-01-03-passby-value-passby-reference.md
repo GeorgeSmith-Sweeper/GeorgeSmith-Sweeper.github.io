@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pass-by-value, pass-by-reference"
+title: "Pass-by-value, Pass-by-reference"
 date:  2018-01-03
 comments: true
 categories: jekyll update
