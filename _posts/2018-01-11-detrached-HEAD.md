@@ -36,3 +36,5 @@ If changes are made while in a detached HEAD state, and you'd like to hold to th
 ### Summary
 
 Most developers will enter a detached head state at some point in their careers. It can be unnerving at first but git makes it fairly easy to recover from, amd continue working.
+
+{% include disqus.html %}
