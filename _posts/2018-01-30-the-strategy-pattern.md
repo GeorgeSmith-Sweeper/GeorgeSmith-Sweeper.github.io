@@ -104,3 +104,4 @@ Look at how much smaller and cleaner the Ai class has become! We were able to ge
 
 Using the strategy patten can make your code easier to read, maintain, and modify. It allows you to remove clutter from classes and helps to keep the number of responsibilities in each class to a minimum.
 
+{% include disqus.html %}
