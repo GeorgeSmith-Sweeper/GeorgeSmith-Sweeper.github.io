@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The road through code
+title: The Road Through Code
 email: george.smsweeper@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  This blog will is an outlet for all of the questions and thoughts flying through my head, along with any interesting discoveries that I come across while building software.
