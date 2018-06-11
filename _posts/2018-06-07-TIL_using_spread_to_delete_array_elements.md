@@ -24,23 +24,34 @@ let garage = [
 ]
 
 ```
-The garage owner wants us to create a simple function that updates the state of the garage (it's inventory) whenever a car leaves the facility. Luckily for us we can use `findIndex`, and `...` (spread) along with the cars unique `id` to get the job done easily.
+The garage owner wants us to create a simple function that updates the state of the garage (it's inventory) whenever a car leaves the facility. Luckily for us we can use `findIndex`, and `...` (spread) along with the cars unique `id` to get the job done easily. We'll make a function called remove car, and pass it the id of the car, and the garage array.
 
-Lets say we wanted to remove the car with the id of `912` from the `garage` array using ES6:
+Lets say we wanted to remove the car with the id of `912` from the `garage` array. The first thing we would need to do is figure out where id 912 resides within the array. `findIndex` will loop though each element (car object) until it finds the one that matches the provided id. Once the id is found, `findIndex` will return the location where the match was made. We get index `3`.
 
 ```javascript
+
+const newGarageState = removeCar(912, garage);
 
 const removeCar = (carId, garage) => {
   // find the index of the car we want to remove
   const carIndex = garage.findIndex(car => car.id === carId);
-
-  // spread
-  const newGarage = [...garage.slice(0, carIndex), ...garage.slice(carIndex + 1)];
-
-  return newGarage;
 }
 
-removeCar(912, garage);
-
-
 ```
+
+Once we have the index of the car that we'll be removing, can create a new array `newGarage` with the single car excluded. We start by using `.slice` to find all of the cars before, and after the car that we're going to remove. Once we have these arrays, we can spread them into an array literal `[]` and return it!
+
+```javascript
+
+const removeCar = (carId, garage) => {
+  const carIndex = garage.findIndex(car => car.id === carId);
+
+  const carsBeforeIndex = garage.slice(0, carIndex);
+  const carsAfterIndex = garage.slice(carIndex + 1);
+
+  const newGarage = [...carsBeforeIndex, ...carsAfterIndex];
+
+  return newGarage;
+};
+```
+
