@@ -36,7 +36,7 @@ const removeCar = (carId, garage) => {
 
 ```
 
-Once we have the index of the car that we'll be removing, can create a new array `newGarage` with the single car excluded. We start by using `.slice` to find all of the cars before, and after the car that we're going to remove. Once we have these arrays, we can spread them into an array literal `[]` and return it!
+Once we have the index of the car that we'll be removing, we use `.slice` to find all of the cars before, and after it’s location in the array. Now that we have these “before”, and “after arrays, we can spread them into a new array literal and return it!
 
 ```javascript
 
@@ -52,7 +52,7 @@ const removeCar = (carId, garage) => {
 };
 ```
 
-This function should satisfy the requirements of our garage owner.
+This function should satisfy the requirements of our garage owner, and keep us happily employed.
 
 ```javascript
   let updatedGarage = removeCar(912, garage);
