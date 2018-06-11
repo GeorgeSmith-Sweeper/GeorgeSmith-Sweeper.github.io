@@ -56,10 +56,12 @@ This function should satisfy the requirements of our garage owner, and keep us h
 
 ```javascript
   let updatedGarage = removeCar(912, garage);
-  console.log(updatedGarage)
+  console.log(updatedGarage);
 
   // {id: 529, make: 'Jeep', model: 'Cherokee'},
   // {id: 700, make: 'Ferrari', model: 'Laferrari'},
   // {id: 839, make: 'Subaru,' model: 'STI'},
   // {id: 43, make: 'Tesla,' model: 'Model 3'}
 ```
+
+{% include disqus.html %}
