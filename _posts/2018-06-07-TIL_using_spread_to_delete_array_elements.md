@@ -23,9 +23,10 @@ let garage = [
 ];
 
 ```
-The garage owner wants us to create a simple function that updates the state of the garage (it's inventory) whenever a car leaves the facility. Luckily for us we can use `findIndex`, and `...` (spread) along with the cars unique `id` to get the job done easily. We'll make a function called remove car, and pass it the id of the car, and the garage array.
 
-Lets say we wanted to remove the car with the id of `912` from the `garage` array. The first thing we would need to do is figure out where id 912 resides within the array. `findIndex` will loop though each element (car object) until it finds the one that matches the provided id. Once the id is found, `findIndex` will return the location where the match was made. We get index `3`.
+The garage owner wants us to create a simple function that updates the state of the garage (it's inventory) whenever a car leaves the facility. Luckily for us we can use `findIndex`, and `...` (spread) along with the cars unique `id` to get the job done easily. We'll make a function called `removeCar`, and pass it the id of the car, and the garage array.
+
+Lets say we wanted to remove the car with the id of `912` from the `garage` array. The first thing we would need to do is figure out where id 912 resides within the array. We’ll use `findIndex` to loop though each element (car object) until it we find one that matches the provided id. Once the id is found, `findIndex` will return the location where the match was made. Our car is at index `3`.
 
 ```javascript
 
